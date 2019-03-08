@@ -1,0 +1,34 @@
+// ==================== //
+    // Global Imports
+// ==================== //
+@import 'partials/variables',
+        'partials/mixins',
+        'partials/base',
+        'partials/components',
+        'partials/responsive';
+
+.sections {
+
+    ul {
+        float: right;
+        list-style-type: none;
+    }
+
+    li {
+        display: inline;
+        margin: 1em;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+.sections>*>*:nth-child(1) {
+   margin-right: 35em;
+}
+
+.sections>*>*:nth-child(7) {
+    margin-right: 6em;
+}

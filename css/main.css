@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.sections ul {
+  float: right;
+  list-style-type: none; }
+.sections li {
+  display: inline;
+  margin: 1em; }
+.sections a {
+  text-decoration: none;
+  color: #000; }
+
+.sections > * > *:nth-child(1) {
+  margin-right: 35em; }
+
+.sections > * > *:nth-child(7) {
+  margin-right: 6em; }
+
+/*# sourceMappingURL=main.css.map */
