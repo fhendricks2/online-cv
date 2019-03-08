@@ -1,3 +1,4 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 body {
   padding: 2em; }
 
@@ -64,7 +65,7 @@ header {
     width: 810px; }
 
 .container2 {
-  height: 13em;
+  height: 20em;
   position: relative;
   margin-top: 2em;
   background-color: #DFCC74; }
@@ -79,7 +80,8 @@ header {
   padding-left: 20px;
   font-size: large;
   opacity: 1.3;
-  margin-left: 29em; }
+  margin-left: 29em;
+  margin-top: 2.5em; }
 
 .container3 {
   display: grid;
@@ -118,5 +120,38 @@ header {
     margin-top: 10em; }
     .qualifications section h3 {
       color: #fff; }
+
+.grid {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5em;
+  background-color: #DFCC74; }
+  .grid img {
+    width: 615px; }
+
+.skill ul {
+  display: inline; }
+.skill li {
+  list-style-type: none;
+  display: inline;
+  margin: 1em; }
+.skill img {
+  height: 5em;
+  width: 5em;
+  margin-top: 3em; }
+.skill h3 {
+  margin-top: 2em;
+  color: #fff; }
+
+.container5 h1 {
+  text-align: center;
+  color: #000;
+  font-size: 2em;
+  margin-top: 2em; }
+.container5 h4 {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
