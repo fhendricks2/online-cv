@@ -95,4 +95,28 @@ header {
     .container3 .job h3 {
       color: #eca43d; }
 
+.container4 {
+  text-align: center;
+  margin-top: 5em;
+  font-size: larger; }
+  .container4 h1 {
+    color: #eca43d;
+    font-size: -webkit-xxx-large; }
+
+.qualifications {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 2em;
+  background-color: #eca43d; }
+  .qualifications img {
+    width: 650px; }
+  .qualifications section {
+    margin-left: 10em;
+    margin-top: 10em; }
+    .qualifications section h3 {
+      color: #fff; }
+
 /*# sourceMappingURL=main.css.map */

@@ -105,7 +105,9 @@ header {
     }
 }
 
-
+// =================== //
+    // Experience //
+// =================== //
 .container2 {
     height: 13em;
     position: relative;
@@ -145,6 +147,44 @@ header {
 
         h3 {
             color: #eca43d;
+        }
+    }
+}
+
+// ================= // 
+    // Education // 
+// ================= // 
+
+.container4 {
+    text-align: center;
+    margin-top: 5em;
+    font-size: larger;
+
+    h1 {
+        color: #eca43d;
+        font-size: -webkit-xxx-large;
+    }
+}
+
+.qualifications {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2em;
+    background-color: #eca43d;
+
+    img {
+        width: 650px;
+    }
+
+    section {
+        margin-left: 10em;
+        margin-top: 10em;
+        
+        h3 {
+            color: #fff;
         }
     }
 }
