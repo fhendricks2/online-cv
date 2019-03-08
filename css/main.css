@@ -63,4 +63,36 @@ header {
   #about img {
     width: 810px; }
 
+.container2 {
+  height: 13em;
+  position: relative;
+  margin-top: 2em;
+  background-color: #DFCC74; }
+  .container2 img {
+    width: 23em;
+    margin-left: 28em; }
+
+.txt {
+  position: absolute;
+  top: 50px;
+  color: #000000;
+  padding-left: 20px;
+  font-size: large;
+  opacity: 1.3;
+  margin-left: 29em; }
+
+.container3 {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2em; }
+  .container3 ul {
+    list-style-type: none; }
+  .container3 .job {
+    font-size: larger; }
+    .container3 .job h3 {
+      color: #eca43d; }
+
 /*# sourceMappingURL=main.css.map */
