@@ -1,3 +1,9 @@
+body {
+  padding: 2em; }
+
+html {
+  scroll-behavior: smooth; }
+
 .sections ul {
   float: right;
   list-style-type: none; }
@@ -9,7 +15,7 @@
   color: #000; }
 
 .sections > * > *:nth-child(1) {
-  margin-right: 33em; }
+  margin-right: 30em; }
 
 .sections > * > *:nth-child(7) {
   margin-right: 6em; }
@@ -24,11 +30,9 @@ header {
   background-size: cover;
   height: -webkit-fill-available; }
 
-/* Container holding the image and the text */
 .container {
   position: relative; }
 
-/* Bottom right text */
 .text-block {
   position: absolute;
   top: 20px;
@@ -41,6 +45,22 @@ header {
   opacity: .5;
   height: 10em; }
   .text-block h1 {
-    margin-top: 2em; }
+    margin-top: 2em;
+    color: #eca43d; }
+
+#about {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1em;
+  background-color: #eca43d; }
+  #about .text {
+    margin-top: 8em;
+    font-size: large;
+    color: #fff; }
+  #about img {
+    width: 810px; }
 
 /*# sourceMappingURL=main.css.map */

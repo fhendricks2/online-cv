@@ -7,6 +7,14 @@
         'partials/components',
         'partials/responsive';
 
+body {
+    padding: 2em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 // =============== //
     // Header //
 // =============== //
@@ -29,7 +37,7 @@
 }
 
 .sections>*>*:nth-child(1) {
-   margin-right: 33em;
+   margin-right: 30em;
 }
 
 .sections>*>*:nth-child(7) {
@@ -42,18 +50,19 @@ header {
     height: 3em;    
 }
 
+// ================== //
+    //Home Banner//
+// ================== //
 .home {
     background-image: url(../images/increasing_customer_lifetime_value.jpg);
     background-size: cover;
     height: -webkit-fill-available;
 }
 
-/* Container holding the image and the text */
 .container {
     position: relative;
 }
   
-  /* Bottom right text */
 .text-block {
     position: absolute;
     top: 20px;
@@ -68,6 +77,30 @@ header {
 
     h1 {
         margin-top: 2em;
+        color: #eca43d;
     }
 }
 
+// ================ //
+    // About //
+// ================ //
+
+#about {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1em;
+    background-color: #eca43d;
+
+    .text {
+        margin-top: 8em;
+        font-size: large;
+        color: #fff;
+    }
+
+    img {
+        width: 810px;
+    }
+}
