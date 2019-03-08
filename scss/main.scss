@@ -245,3 +245,34 @@ header {
         text-align: center;
     }
 }
+
+// =============== // 
+    // Skills // 
+// =============== // 
+
+.container6 {
+    h1 {
+        text-align: center;
+        color: #eca43d;
+        font-size: 3em;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
+
+.grid2 {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5em;
+    background-color: #eca43d;
+
+    img {
+        width: 39em;
+        height: 28em;
+    }
+}
