@@ -214,7 +214,7 @@ html {
 
 .sections ul {
   position: absolute;
-  width: 100%;
+  width: auto;
   float: right;
   list-style-type: none;
   height: 4em; }
@@ -231,7 +231,7 @@ html {
   color: #eca43d; }
 
 .sections > * > *:nth-child(1) {
-  margin-right: 20em; }
+  margin-right: 15em; }
 
 .sections > * > *:nth-child(7) {
   margin-right: 6em; }
